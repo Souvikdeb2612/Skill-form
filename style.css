@@ -34,6 +34,8 @@ body{
     overflow: hidden;
 }
 
+
+
 .button-box{
     width:220px;
     margin: 35px auto;
@@ -111,3 +113,41 @@ body{
 #register{
     left:450px;
 }
+
+.prof{
+    text-align:center;
+}
+
+
+.proficiency{
+    margin:auto; 
+    display:table;
+}
+
+.center {
+    text-align: center;
+    background: linear-gradient(to right, var(--primary-grad), var(--secondary-grad));
+    border-radius: 0.5rem;
+    margin:auto; 
+    display:table;
+    padding: 0.3rem;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  tr:nth-child(odd) {
+    color:white;
+  }

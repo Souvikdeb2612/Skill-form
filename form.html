@@ -8,6 +8,71 @@
     <script src="https://kit.fontawesome.com/dff7445efa.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <div class="hero">
+        <div class="form-box" style="height:510px">
+            <div style="text-align: center; font-weight:bold; margin:1rem;">RATE YOUR PROFICIENCY</div>
+            <form class="prof" method="GET" action="/dashboard.html">
+                <span class="center">
+                    HTML
+                </span>
+                <select class="proficiency" id="pro1" onchange="getSelectValue1();" style="margin-top:10px; margin-bottom: 10px;">
+                    <option value="proficiency">Proficiency</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+                <span class="center">
+                    CSS
+                </span>
+                <select class="proficiency" id="pro2" onchange="getSelectValue2();" style="margin-top:10px; margin-bottom: 10px;">
+                    <option value="proficiency">Proficiency</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+                <span class="center" >
+                    Javascript
+                </span>
+                <select class="proficiency" id="pro3" onchange="getSelectValue3();" style="margin-top:10px; margin-bottom: 10px;">
+                    <option value="proficiency">Proficiency</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+                <span class="center" >
+                    Python
+                </span>
+                <select class="proficiency" id="pro4" onchange="getSelectValue4();" style="margin-top:10px; margin-bottom: 10px;">
+                    <option value="proficiency">Proficiency</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+    
+                <span class="center" >
+                    React
+                </span>
+                <select class="proficiency" id="pro5" onchange="getSelectValue5();" style="margin-top:10px; margin-bottom: 10px;">
+                    <option value="proficiency">Proficiency</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+        
+                <span class="center" >
+                    Node
+                </span>
+                <select class="proficiency" id="pro6" onchange="getSelectValue6();" style="margin-top:10px; margin-bottom: 10px;">
+                    <option value="proficiency">Proficiency</option>
+                    <option value="beginner">Beginner</option>
+                    <option value="intermediate">Intermediate</option>
+                    <option value="expert">Expert</option>
+                </select>
+                <button type="submit" class="submit-btn" style="margin-top:30px">Submit</button>
+            </form>
+        </div>
+    </div>
+    <script src="app.js" ></script>
     
 </body>
 </html>
