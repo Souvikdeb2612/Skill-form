@@ -1,21 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* :root{
+:root{
     --primary-color:#FBBF24;
-    --dark-color:#6B7280;
-    --lightyellow-color:#FEF3C7; */
-/* }
+    --primary-grad:#1E40AF;
+    --secondary-grad:#34D399;
+    --box-shadow: 
+    #ECFDF5;
+}
 
 body{
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px;
-    background-color: var(--lightyellow-color); */
-/* } */
-*{
     margin:0;
     padding:0;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 .hero{
     height: 100%;
@@ -33,13 +31,14 @@ body{
     margin: 6% auto;
     background: white;
     padding: 5px;
+    overflow: hidden;
 }
 
 .button-box{
     width:220px;
     margin: 35px auto;
     position:relative;
-    box-shadow: 0 0 20px 9px #ff61241f;
+    box-shadow: 0 0 20px 9px var(--box-shadow);
     border-radius: 30px;
 }
 
@@ -50,6 +49,7 @@ body{
     border:0;
     outline: none;
     position: relative;
+    font-weight: bold;
 }
 
 #btn{
@@ -58,7 +58,7 @@ body{
     position:absolute;
     width: 110px;
     height:100%;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, VAR(--primary-grad), var(--secondary-grad));
     border-radius: 30px;
     transition: 0.5s
 }
@@ -88,10 +88,11 @@ body{
     cursor: pointer;
     display: block;
     margin: auto;
-    background: linear-gradient(to right, #ff105f, #ffad06);
+    background: linear-gradient(to right, var(--primary-grad), var(--secondary-grad));
     border:0;
     outline:none;
     border-radius: 30px;
+    font-weight: bold;
 }
 
 .checkbox{
